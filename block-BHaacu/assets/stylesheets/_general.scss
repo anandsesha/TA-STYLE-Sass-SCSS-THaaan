@@ -60,12 +60,18 @@ a{
     flex: 0 1 45%;
     // border: 1px solid black;
 }
+.flex-50{
+    flex: 0 1 50%;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
 .flex-30{
     flex:  0 1 30%;
 }
 .flex-70{
     flex: 0 1 70%;
-    // border: 1px solid black;
+    border: 1px solid black;
 }
 .flex-20{
     flex: 0 1 20%;
@@ -73,6 +79,18 @@ a{
 }
 .flex-25{
     flex: 0 1 25%;
+    // border: 1px solid black;
+}
+.flex-15{
+    flex: 0 1 15%;
+    // border: 1px solid purple;
+}
+.flex-80{
+    flex: 0 1 80%;
+    // border: 1px solid purple;
+}
+.flex-23{
+    flex: 0 1 23%;
     // border: 1px solid black;
 }
 .flex-column{

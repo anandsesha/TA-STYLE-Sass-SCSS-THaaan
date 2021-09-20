@@ -145,6 +145,17 @@ a {
           flex: 0 1 45%;
 }
 
+.flex-50 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .flex-30 {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 30%;
@@ -155,6 +166,7 @@ a {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 70%;
           flex: 0 1 70%;
+  border: 1px solid black;
 }
 
 .flex-20 {
@@ -167,6 +179,24 @@ a {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 25%;
           flex: 0 1 25%;
+}
+
+.flex-15 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 15%;
+          flex: 0 1 15%;
+}
+
+.flex-80 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 80%;
+          flex: 0 1 80%;
+}
+
+.flex-23 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 23%;
+          flex: 0 1 23%;
 }
 
 .flex-column {
@@ -448,5 +478,82 @@ a {
   font-size: 0.8rem;
   color: #f8f9fa73;
   line-height: 2;
+}
+
+.about-us-section {
+  background-color: #dc3e45;
+  padding: 3rem 0;
+}
+
+.about-us-heading {
+  color: #f2f2f2;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.section-preface {
+  color: #dc3e45;
+  font-weight: 400;
+  font-size: 1rem;
+  display: inline-block;
+  padding-bottom: 1rem;
+}
+
+.about-industry-image {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.mission-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+  padding: 0.8rem 0;
+}
+
+.mission-description {
+  color: #393c41;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.our-team-section {
+  background-color: #f8f9fa;
+}
+
+.team-card {
+  margin: 2.6rem 0;
+}
+
+.team-img-desc-wrapper {
+  -webkit-box-shadow: 1px 1px 6px gainsboro;
+          box-shadow: 1px 1px 6px gainsboro;
+}
+
+.team-img-desc-wrapper h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #19191a;
+  text-align: center;
+  padding: 1rem 0 0.4rem 0;
+}
+
+.team-img-desc-wrapper h6 {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #dc3e45;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.team-img-desc-wrapper .team-image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.get-best-solution-section .industry-para {
+  padding: 0 8rem;
+  margin-bottom: 1.6rem;
 }
 /*# sourceMappingURL=style.css.map */
