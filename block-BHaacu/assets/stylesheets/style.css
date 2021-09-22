@@ -132,11 +132,16 @@ a {
           align-items: stretch;
 }
 
+.aib {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
 .flex-40 {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 40%;
           flex: 0 1 40%;
-  border: 1px solid black;
 }
 
 .flex-45 {
@@ -166,7 +171,6 @@ a {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 70%;
           flex: 0 1 70%;
-  border: 1px solid black;
 }
 
 .flex-20 {
@@ -399,7 +403,7 @@ a {
   border-radius: 10px;
 }
 
-.request-quote-section {
+.request-quote-section, .grab-deal-section {
   background-color: #dc3e45;
   padding: 2rem 0;
 }
@@ -517,7 +521,7 @@ a {
   font-weight: 400;
 }
 
-.our-team-section {
+.our-team-section, .our-products-section {
   background-color: #f8f9fa;
 }
 
@@ -555,5 +559,62 @@ a {
 .get-best-solution-section .industry-para {
   padding: 0 8rem;
   margin-bottom: 1.6rem;
+}
+
+.products-wrapper {
+  padding-top: 4rem;
+}
+
+.products-wrapper img {
+  max-width: 230px;
+  max-height: 95px;
+  width: auto;
+  height: auto;
+}
+
+.our-products-section hr {
+  margin-top: 4rem;
+  border-color: 0.2px solid #e1e1f8;
+}
+
+.product-heading {
+  padding: 0.6rem 0;
+}
+
+.grab-deal-section .quote-para, .grab-deal-section .quote-heading {
+  padding: 0;
+}
+
+.grab-deal-section .quote-para {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #f8f9fa;
+  padding-left: 1rem;
+}
+
+.quote-span {
+  font-size: 1.4rem;
+  font-weight: 200;
+  color: ghostwhite;
+  padding: 0 1.2rem;
+}
+
+.best-awarded-section .section-description {
+  padding: 0 8rem;
+}
+
+.best-award-wrapper .quote-para {
+  color: #919597;
+  padding: 0 2rem;
+}
+
+.best-award-wrapper {
+  margin-top: 6rem;
+}
+
+.best-award-wrapper .section-heading {
+  padding: 1rem 0.6rem;
+  text-transform: none;
+  line-height: 1.5;
 }
 /*# sourceMappingURL=style.css.map */

@@ -52,9 +52,12 @@ a{
 .ais{
     align-items: stretch;
 }
+.aib{
+    align-items: baseline;
+}
 .flex-40{
     flex: 0 1 40%;
-    border: 1px solid black;
+    // border: 1px solid black;
 }
 .flex-45{
     flex: 0 1 45%;
@@ -68,10 +71,11 @@ a{
 }
 .flex-30{
     flex:  0 1 30%;
+    // border: 1px solid black;
 }
 .flex-70{
     flex: 0 1 70%;
-    border: 1px solid black;
+    // border: 1px solid black;
 }
 .flex-20{
     flex: 0 1 20%;
