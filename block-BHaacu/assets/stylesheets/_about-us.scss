@@ -32,16 +32,8 @@
     font-weight: 400;
 }
 
-// .wrapper{
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-between;
-//     align-items: stretch;
-//     align-items: space-between;
-// }
-
 // Our Team Section
-.our-team-section{
+.our-team-section,.our-products-section{
     background-color: $ghost-white;
 }
 .team-card{
