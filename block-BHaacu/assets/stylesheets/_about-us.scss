@@ -33,7 +33,7 @@
 }
 
 // Our Team Section
-.our-team-section,.our-products-section{
+.our-team-section,.our-products-section,.address-phone-email-section{
     background-color: $ghost-white;
 }
 .team-card{
@@ -42,7 +42,7 @@
 .team-img-desc-wrapper{
     box-shadow: 1px 1px 6px gainsboro;
 }
-.team-img-desc-wrapper h3{
+.team-img-desc-wrapper h3,.contact-wrapper h3{
     font-size: 1rem;
     font-weight: 400;
     color: $light-black;
