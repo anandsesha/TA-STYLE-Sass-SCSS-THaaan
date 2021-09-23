@@ -521,7 +521,7 @@ a {
   font-weight: 400;
 }
 
-.our-team-section, .our-products-section {
+.our-team-section, .our-products-section, .address-phone-email-section {
   background-color: #f8f9fa;
 }
 
@@ -534,7 +534,7 @@ a {
           box-shadow: 1px 1px 6px gainsboro;
 }
 
-.team-img-desc-wrapper h3 {
+.team-img-desc-wrapper h3, .contact-wrapper h3 {
   font-size: 1rem;
   font-weight: 400;
   color: #19191a;
@@ -616,5 +616,48 @@ a {
   padding: 1rem 0.6rem;
   text-transform: none;
   line-height: 1.5;
+}
+
+.address-phone-email-section .industry-para {
+  padding: 0 5rem;
+}
+
+.contact-wrapper {
+  margin-top: 4rem;
+}
+
+.circle {
+  background-color: #e0dddd;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem;
+}
+
+.circle-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.4rem 0;
+}
+
+.contact-icon {
+  font-size: 2rem;
+  color: #dc3e45;
 }
 /*# sourceMappingURL=style.css.map */
