@@ -46,6 +46,26 @@
     }
 }
 
+.sub-menu-parent{
+    position: relative;
+}
+.sub-menu{
+    position: absolute;
+    background-color: $primary;
+    box-shadow: 0 3px 8px rgba($color: #000000, $alpha: 0.3);
+    width: 150px;
+    text-align: left;
+    left: 25%;
+    top: 100%;
+    display: none;
+}
+.sub-menu li a{
+    margin: 0.4rem;
+}
+.sub-menu-parent:hover .sub-menu{
+    display: inline-block;
+}
+
 // Hero Section
 .hero-heading{
     font-weight: 900;
